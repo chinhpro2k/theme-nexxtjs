@@ -1,0 +1,40 @@
+@import "main";
+html,
+body {
+  padding: 0;
+  margin: 0;
+ color: black;
+  background-color: #ffffff;
+}
+[data-theme='dark'],
+[data-theme='dark']body{
+  background-color: black;
+  color: white;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  p{
+    color: rebeccapurple;
+    font-size: 30px;
+  }
+  .chinh{
+    span{
+      font-size: 50px;
+      color: red;
+    }
+  }
+}
+.main2{
+  span{
+    color: yellow;
+  }
+}
